@@ -2,79 +2,124 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>T-shirt Store</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/logo.png" alt="logo de la boutique" class="logo">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet" />
 </head>
 
 <body>
 
-    <section id="header">
-        <a href="index.html"><img src="img/logo.png" class="logo" alt="websitelogo"></a>
-        <div>
+    <header id="header">
+        <a href="index.html">
+            <img src="img/logo.png" class="logo" alt="Logo de la boutique" />
+        </a>
+        <nav>
             <ul id="navbar">
                 <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <i class="fa-brands fa-facebook-messenger"></i>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://m.me/nom_utilisateur" target="_blank"><i class="fa-brands fa-facebook-messenger"></i></a></li>
             </ul>
-        </div>
-    </section>
+        </nav>
+    </header>
 
     <section id="hero">
+        <img src="img/hero.png" alt="Image principale" class="hero-img" />
     </section>
 
-    <section class="products">
+    <section id="products" class="products">
         <h2>Nos T-shirts</h2>
         <div class="product-grid">
             <div class="product-card">
-                <img src="img/logo.png" alt="T-shirt rouge">
+                <img src="img/logo.png" alt="T-shirt rouge" />
                 <h3>T-shirt Rouge</h3>
                 <p>Design vibrant et coupe classique.</p>
                 <button>Acheter</button>
             </div>
+
             <div class="product-card">
-                <img src="img/logo.png" alt="T-shirt blanc">
+                <img src="img/logo.png" alt="T-shirt blanc" />
                 <h3>T-shirt Blanc</h3>
                 <p>Minimaliste et élégant.</p>
                 <button>Acheter</button>
             </div>
             <div class="product-card">
-                <img src="img/logo.png" alt="T-shirt blanc">
+                <img src="img/logo.png" alt="T-shirt blanc" />
                 <h3>T-shirt Blanc</h3>
                 <p>Minimaliste et élégant.</p>
                 <button>Acheter</button>
             </div>
             <div class="product-card">
-                <img src="img/logo.png" alt="T-shirt blanc">
+                <img src="img/logo.png" alt="T-shirt blanc" />
                 <h3>T-shirt Blanc</h3>
                 <p>Minimaliste et élégant.</p>
                 <button>Acheter</button>
             </div>
             <div class="product-card">
-                <img src="img/logo.png" alt="T-shirt blanc">
+                <img src="img/logo.png" alt="T-shirt blanc" />
                 <h3>T-shirt Blanc</h3>
                 <p>Minimaliste et élégant.</p>
                 <button>Acheter</button>
             </div>
             <div class="product-card">
-                <img src="img/logo.png" alt="T-shirt blanc">
+                <img src="img/logo.png" alt="T-shirt blanc" />
                 <h3>T-shirt Blanc</h3>
                 <p>Minimaliste et élégant.</p>
                 <button>Acheter</button>
             </div>
+            <div class="product-card">
+                <img src="img/logo.png" alt="T-shirt blanc" />
+                <h3>T-shirt Blanc</h3>
+                <p>Minimaliste et élégant.</p>
+                <button>Acheter</button>
+            </div>
+
         </div>
     </section>
 
+    <section id="about" class="about">
+        <div class="about-container">
+            <h2>About</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.
+            </p>
+        </div>
+    </section>
 
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p><i class="fa-solid fa-phone"></i> Phone : +00 123 456 789</p>
+            <p><i class="fa-solid fa-envelope"></i> Email : contact@tshirtstore.com</p>
+            <p>
+                <i class="fa-brands fa-facebook"></i>
+                <a href="https://facebook.com" target="_blank">Follow us on Facebook</a>
+            </p>
+            <p>
+                <i class="fa-brands fa-whatsapp"></i>
+                <a href="https://wa.me/00123456789" target="_blank" class="whatsapp-btn">Chat on WhatsApp</a>
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 T-shirt Store. All rights reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
-
 </body>
 
 </html>
