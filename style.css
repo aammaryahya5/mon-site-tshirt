@@ -48,22 +48,6 @@ body {
     transition: 0.3s ease;
 }
 
-#navbar li a:hover,
-#navbar li a.active {
-    color: #36ddb9;
-}
-
-#navbar li a.active::after,
-#navbar li a:hover::after {
-    content: "";
-    width: 30%;
-    height: 2px;
-    background: #36ddb9;
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-}
-
 @media (max-width: 768px) {
     .header-row {
         flex-direction: row;
